@@ -122,3 +122,11 @@ USE_TZ = True
 STATIC_URL = '/static/'
 
 AUTH_USER_MODEL = 'main.AdvUser'
+
+EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
+
+# EMAIL_HOST = 'smtp.gmail.com'
+# EMAIL_PORT = 587
+# EMAIL_HOST_USER = 'linglingshmn70@gmail.com'
+# EMAIL_HOST_PASSWORD = 'perforator'
+# DEFAULT_FROM_EMAIL = 'linglingshmn70@gmail.com'
